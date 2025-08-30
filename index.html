@@ -9,6 +9,25 @@
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
     <link rel="stylesheet" href="style.css">
     <link rel="shortcut icon" href="assets/favicon.png" type="image/x-icon">
+    <!-- Meta Pixel Code -->
+    <script>
+        !function (f, b, e, v, n, t, s) {
+            if (f.fbq) return; n = f.fbq = function () {
+                n.callMethod ?
+                n.callMethod.apply(n, arguments) : n.queue.push(arguments)
+            };
+            if (!f._fbq) f._fbq = n; n.push = n; n.loaded = !0; n.version = '2.0';
+            n.queue = []; t = b.createElement(e); t.async = !0;
+            t.src = v; s = b.getElementsByTagName(e)[0];
+            s.parentNode.insertBefore(t, s)
+        }(window, document, 'script',
+            'https://connect.facebook.net/en_US/fbevents.js');
+        fbq('init', '718739241332067');
+        fbq('track', 'PageView');
+    </script>
+    <noscript><img height="1" width="1" style="display:none"
+            src="https://www.facebook.com/tr?id=718739241332067&ev=PageView&noscript=1" /></noscript>
+    <!-- End Meta Pixel Code -->
 </head>
 
 <body class="bg-gray-50">
@@ -32,8 +51,7 @@
                     <h1 class="text-4xl md:text-6xl font-bold mb-6">Guia Prático: Educação Financeira</h1>
                     <p class="text-xl mb-8">Transforme sua vida financeira com 7 capítulos práticos, checklists
                         exclusivos e mais de 50 páginas de conteúdo transformador.</p>
-                    <button
-                        class="btn-primary text-white px-8 py-4 rounded-full font-semibold text-lg">
+                    <button class="btn-primary text-white px-8 py-4 rounded-full font-semibold text-lg">
                         <i class="fas fa-graduation-cap mr-2"></i>Eduque-se agora
                     </button>
                 </div>
@@ -110,7 +128,8 @@
                                 Prática</li>
                             <li class="flex items-center"><i class="fas fa-check text-green-500 mr-3"></i> Desafios
                                 financeiros</li>
-                            <li class="flex items-center"><i class="fas fa-check text-green-500 mr-3"></i> Renda Extra</li>
+                            <li class="flex items-center"><i class="fas fa-check text-green-500 mr-3"></i> Renda Extra
+                            </li>
                         </ul>
                     </div>
                 </div>
@@ -212,7 +231,7 @@
             </div>
         </div>
     </footer>
-<script src="script.js"></script>
+    <script src="script.js"></script>
 </body>
 
 </html>
